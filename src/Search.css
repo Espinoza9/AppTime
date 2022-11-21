@@ -1,0 +1,33 @@
+.search-input {
+    border: 7px;
+    border-radius: 30px;
+    background-color: #122155;
+    border: none;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(245, 14, 14);
+}
+
+.search-input::placeholder {
+    color: rgb(245, 14, 14);
+}
+
+.input {
+    border: 7px;
+    border-radius: 5px;
+    background-color: #2b1055;
+    border: none;
+    color: rgb(245, 14, 14);
+    padding: 15px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.input:hover,
+.input:visited,
+.input:checked {
+    background-color: #351865;
+}
