@@ -44,7 +44,7 @@ function Search(props) {
 
             {
                 (cidade !== "") ?
-                    <div dangerouslySetInnerHTML={{ __html: cidade }} /> :
+                    <div dangerouslySetInnerHTML={{ __html: cidade }} className="previsao" /> :
                     <div><h3>Pesquise Por Algo Acima....</h3></div>
             }
         </div>
