@@ -31,3 +31,16 @@
 .input:checked {
     background-color: #351865;
 }
+up{
+    background-color: rgba(140, 0, 255, 0.205);
+    border-radius: 300px;
+    display: list-item;
+    border: thin;
+    background-image: linear-gradient(to right,pink,rgb(140, 0, 255),rgba(255, 255, 0, 0.281),rgb(214, 12, 147),blue,rgb(23, 218, 218),rgb(252, 8, 8))
+}
+.previsao{
+    background-image: radial-gradient(circle, red, yellow, green);
+    border-radius: 300px;
+    display: list-item;
+    border: thin;
+}
