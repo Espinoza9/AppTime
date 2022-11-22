@@ -69,7 +69,7 @@ function Capitais() {
         <div className="searchwraper">
             {
                 (cidade !== "") ?
-                    <div dangerouslySetInnerHTML={{ __html: cidade }} /> :
+                    <div dangerouslySetInnerHTML={{ __html: cidade }} className="up"/> :
                     <div><h3>Pesquise Por Algo Acima....</h3></div>
             }
         </div>
